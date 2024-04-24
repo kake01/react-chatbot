@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './App.css';
-import { InputTodo } from './components/InputTodo';
-import { IncompleteTodos } from './components/IncompleteTodos';
-import { CompleteTodos } from './components/CompleteTodos';
+import { InputTodo } from './components/TodoApp/InputTodo/InputTodo';
+import { IncompleteTodos } from './components/TodoApp/IncompleteTodos/IncompleteTodos';
+import { CompleteTodos } from './components/TodoApp/CompleteTodos/CompleteTodos';
 
 export const App = () => {
   const [incompleteTodos, setIncompleteTodos] = useState<string[]>([]);
